@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="section upper">
+    <div id="title">
+      <h1 id="titleRock">ROCK</h1>
+      <h1>PAPER</h1>
+      <h1 id="titleScissors">SCISSORS</h1>
+    </div>
+    <div id="score">
+      <h1 id="scoreText">SCORE</h1>
+      <h1 class="scoreNum">0</h1>
+    </div>
+  </div>
+  <div class="play">
+    <h6 id="youPicked">YOU PICKED</h6>
+    <h6 id="housePicked">THE HOUSE PICKED</h6>
+    <div class="result">
+      <h1 class="resultMsg">YOU WIN</h1>
+      <button class="playAgain">PLAY AGAIN</button>
+    </div>
+    <div class= "firstBtn"><input type="image"></div>
+    <div class= "secondBtn"><input type="image"></div>
+  </div>
+  <div class=" middle">
+    <img src="images/bg-triangle.svg">
+    <div class="paper"><input type="image" src="images/icon-paper.svg"></input></div>
+    <div class="rock"><input type="image" src="images/icon-rock.svg"></input></div>
+    <div class="scissors"><input type="image" src="images/icon-scissors.svg"></input></div>
+  </div>
+  <div class="section lower">
+    <button id="modalBtn">RULES</button>
+  </div>
+  <div id="rulesModal">
+    <div id="modalContent">
+      <h1 id="modalTitle">RULES</h1>
+      <span class="close">&times;</span>
+      <img src="images/image-rules.svg">
+    </div>
+  </div>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Santiago Orellana</a>.
+  </div>
+
+  <script src="./index.js" charset="utf-8"></script>
+</body>
+</html>
